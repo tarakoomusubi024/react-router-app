@@ -43,7 +43,7 @@ function NotFound() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-router-app">
       <header
         style={{
           position: "fixed",
